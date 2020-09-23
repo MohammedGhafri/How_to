@@ -1,6 +1,6 @@
 1. In <project>.settings
     1. in INSTALLED_APPS : 
-        type the following in 
+        type the following:
         '<app name>.apps.< name of class in apps>',
 
     2. At the bottom put the following :
