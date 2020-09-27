@@ -51,7 +51,7 @@
     
     - > Create classes the related to serializer as explained in the demo
 
-
+10. Before run server, create superuser 
 
 
 
