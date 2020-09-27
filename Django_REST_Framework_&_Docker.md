@@ -54,4 +54,29 @@
 10. Before run server, create superuser 
 
 
+## Part 2 : Docker
+
+1. In main folder:
+
+    - > Create `Dockerfile`, then you'll see Vs code suggest to install docker extension
+    - > Copy and paste files from **demo** to your **Dockerfile**
+    - > Create another file called `docker-file.yml`.
+    - > Copy and paste files from **demo** to your **docker-file.yml**
+
+2. In settings :
+
+    - > In ALLOWED_HOSTS, add `'0.0.0.0',` some times you need also to add `'127.0.0.1'`,
+
+3. Make sure you downloaded Docker.exe and you are signed-in
+
+4. In terminal : 
+
+    - > `poetry export -f requirements.txt -o requirements.txt`
+    - > `docker-compose` then `docker-compose up`
+
+
+
+
+
+
 
