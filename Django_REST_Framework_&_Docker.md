@@ -50,8 +50,13 @@
 9. In app.views :
     
     - > Create classes the related to serializer as explained in the demo
+# Added recently
+10. In app.admin Assign your model to app.admin:
+    
+    - > import model
+    - > add `admin.site.register(<modelName>) 
 
-10. Before run server, create superuser 
+11. Before run server, create superuser 
 
 
 ## Part 2 : Docker
