@@ -72,7 +72,7 @@
 
 8. In settings, in TEMPLATES, in DIRS create link to your **templates** : 
 
-    os.path.join(BASE_DIR,'tempaltes')
+    os.path.join(BASE_DIR,'templates')
     * Dont forget to import os
 
 9. In settings, at the bottom put :
